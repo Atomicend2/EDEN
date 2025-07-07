@@ -1,0 +1,143 @@
+{
+  "name":"Eden-md",
+  "description":"Lazmiii•) Our Eden bot 😅 test product actually",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://iili.io/F0fy642.md.jpg",
+  "repository":"https://github.com/Cod3Uchiha/Manjiro-Sano-md",
+  "succes_url":"/",
+  "stack":"container",
+     "env":{
+    "PREFIX":
+    {
+      "description":"Enter a symbol for your bot's prefix, e.g. . , ! ? Enter only one symbol",
+      "value":"!",
+      "required":true
+    },
+    "AUTO_READ_MESSAGES":
+    {
+      "description":"If you want your bot to mark messages as read, enter |yes|, otherwise enter |no|", 
+      "value":"no", 
+      "required":true 
+    }, 
+    "AUTO_READ_STATUS":
+    {
+      "description":"If you want your bot to auto-see status updates, enter |yes|, otherwise enter |no|",
+      "value":"yes",
+      "required":true
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"If you want your bot to save and send status updates to your inbox, enter |yes|, otherwise enter |no|",
+      "value":"no",
+      "required":true
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"If you want anyone to be able to use your bot in private messages, enter |no|, otherwise enter |no|",
+      "value":"no",
+      "required":true
+    }
+    ,
+    "BOT_NAME" : {
+
+      "description":"Enter your bot's name",
+      "value":"Eden-md",
+      "required":true
+
+    } ,
+     "BOT_MENU_LINKS" : {
+
+      "description":"Bot ke menu ki pic ka Link Likho",
+      "value":"https://iili.io/F0fy642.md.jpg",
+      "required":false
+
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"If you want anyone to be able to use your bot, enter |yes|, otherwise enter |no|",
+      "value":"no",
+      "required":true
+    }
+        ,
+    "HEROKU_API_KEY": {
+    "description": "Enter your Heroku API key",
+     "required":true
+    },
+   "HEROKU_APP_NAME": {
+    "description": "Enter the name of your Heroku app",
+     "required" :true
+    }  
+          ,
+    "SESSION_ID":
+    {
+      "description":"Enter your bot's session ID",   
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkVIZ0wwOS9DUlRRYk9wcTdkcXF1NnZBK0lzbkxuWmdsUFkrcDlxWVBFbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMDkrclYySnhTK2RyQmFHVGd3ZXNvSTkrU0xhWE9ETThnSnBtUEVTcUxHTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJRVdSc0QzN1Rtc1dycnlzWkRoSjBhb0FKRTlESEhIRHdrQWtsQm9ZaEhvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJGRkcrTnVqdjVPNEIrWmZISmtEckNhcS8xYnNVNTl0RjRpZHRRNHJBcmhFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdJeEE5VGpBU043L1F0SjNzZFUwc1VRY2R1UUdjMlZmN0xGZUdRRU1EVnM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNteGkzUUNYbEVMYmovNHA0a0lqUTVleEZVejJzaXUwTzRYSWlDck12UjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0cyTmE0UzMzU1dLWjhTTXFtNGUydFZ3dVFWc293dVNIODZwTDFtZ25sWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoienJhUHdRNzk3dHVJM0x3SVJSUFRRc0hWSjdieEx0alFGL0ZJK3BiQ0RWUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImI0N1ROSnpHU1dQUFA4aVhHeFYrdzBaclc0VmIwMEF0SG5aT0dSZ0Y5VTlScUJDVEJJOE1LU2VIT0ZhTDhmWkpwcFhhSUhHTTVBTmFxQ2dlNWVKcmpRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE0LCJhZHZTZWNyZXRLZXkiOiJxODB4SGhwNk1IcGNVZDJLaFFCTVJ3Qk9lU1l6ZG9yMEdhUmo4NzRDM21jPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6ZmFsc2UsImFjY291bnQiOnsiZGV0YWlscyI6IkNQSERzZkVERUthNXFNTUdHQU1nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIwbVlXNnU3bnY4cG5mWit1MHhRdUdkb01SZ3lSR0ZDSFF4Q05EUWFlL0ZJPSIsImFjY291bnRTaWduYXR1cmUiOiJPcnQrTS9LNXlLY3dQYXFOZ2tZdk8vNCs0c0F6ZWxJQVMyQjZvOXdUcjBFRWxWUkRJVjliYlQwaEVNMHRjK3BLbG94OFdZM2FVUXNjOGRzSVRYdXJCZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiU2Q1WktmaXF4dTZyN2luTktxT2dVa1FwdHAxYUJiODJrRDBVRHlWbUI2L3dZU0tMUGt2SXhuaUNYMVhEN1lLSjk2MmJtUmZLS3pxSkg2dGwvVS9OZ3c9PSJ9LCJtZSI6eyJpZCI6IjIzNDcwNTY3MDU0MzA6MTNAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIzOTEyMzE0MjMzMjY2MzoxM0BsaWQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0NzA1NjcwNTQzMDoxM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJkSm1GdXJ1NTcvS1ozMmZydE1VTGhuYURFWU1rUmhRaDBNUWpRMEdudnhTIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQklJQ0E9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTE3ODQ2MjcsImxhc3RQcm9wSGFzaCI6IjNnUFVKayJ9",
+      "required": true
+
+    },
+    "OWNER_NAME":
+    {
+
+    "desc": "Enter your name",
+    "required": true,
+    "value": "Atomic"
+  },
+    "OWNER_NUMBER":
+  {
+
+    "desc": "Enter your phone number (without the + sign, e.g. 263xxxxxx)",
+    "required":true,
+    "value": "2347056705430"
+  },
+    "WARN_COUNT":
+  {
+    "desc": "Enter the number of warnings before a user is blocked or removed from a group",
+    "required": true,
+    "value": "3"
+  },
+    "CHAT_BOT":
+    {
+      "desc": "If you want your bot to respond to messages, enter |yes|, otherwise enter |no|",
+      "required": true, 
+       "value": "yes" 
+    }, 
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "If you want a starting message to be sent when the bot is connected, enter |yes|, otherwise enter |no|",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Enter |online| to always show the bot as online, |typing| to show 'is typing...', |recording| to show 'is recording...', or leave blank for no presence",
+    "value":"recording",
+    "required": false
+  }  
+  },
+
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+
+  "formation": {
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
